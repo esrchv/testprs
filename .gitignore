@@ -1,0 +1,48 @@
+# =========================
+# Java / Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven local config (machine-specific)
+.mvn/timing.properties
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Spring Boot
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# IDEs / Editors
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*~
